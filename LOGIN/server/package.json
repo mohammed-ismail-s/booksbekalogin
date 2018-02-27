@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "nodejs server",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./app"
+    },
+    "author": "Jyasveer",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "~1.17.1",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.3",
+        "express": "~4.15.2",
+        "jade": "~1.11.0",
+        "mongodb": "^2.2.25",
+        "mongoose": "^4.5.9",
+        "ejs": "^2.5.7",
+        "mongoose-unique-validator": "^2.0.0",
+        "monk": "^4.0.0",
+        "morgan": "~1.8.1",
+        "path": "^0.12.7",
+        "serve-favicon": "~2.4.2"
+    }
+}
